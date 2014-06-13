@@ -3,7 +3,7 @@ Del_duplicates
 
 A script to delete duplicate files in your hard drive
 
-Introduction
+<b>Introduction</b>
 
 We always download files more than time in different places, such as movies, songs or any other type of data. 
 We usually foget where they are and they end up taking a huge space in our hard drives. In my case I managed to remove a 50 Gb of duplicate files.
@@ -11,12 +11,12 @@ The Del_duplicate script search the given folder and the children folders for al
 After that it loops over all the folder to check if there are any empty folders. If found, it deletes them. 
 
 
-How it works
+<b>How it works</b>
 
 simply run "python Del_duplicates.py" then type the absoulute path of where the script should start working.
 
 
-TO-DO:
+<b>TO-DO</b>
 
 1) Enhance the exception handling
 
