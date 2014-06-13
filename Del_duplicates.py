@@ -51,13 +51,12 @@ def get_folders(dir_name):
     return folders
     
 def main():
-    #path = raw_input("Please, Enter directory path: ")
+    path = raw_input("Please, Enter directory path: ")
     deleted_files = 0
     deleted_size = 0
     deleted_dirs = 0
     scanned_files=0
     
-    path = "/Users/macbookpro/Downloads"
     d = dict()
     file_list = get_files2(path)
     dir_list = get_folders(path)
