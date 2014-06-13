@@ -19,6 +19,10 @@ simply run "python Del_duplicates.py" then type the absoulute path of where the 
 TO-DO:
 
 1) Enhance the exception handling
+
 2) Make the script incremental. So if I ran the script on a folder that contains 500 GB and after a month I run it again, the script doesn't have to calcuate their checksums again
+
 3) Add more options to run the script, such as hashing function.
+
 4) Maybe add a GUI (I don't prefer GUI's though ^^)
+
